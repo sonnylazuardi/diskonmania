@@ -1,0 +1,19 @@
+.spinner-hide .loading{
+  display: block;
+}
+.spinner-show .loading{
+  display: none;
+}
+.loading {
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+.loading img {
+    width: 30px !important;
+    height: 30px !important;
+}
+.my-item {
+  left: 0;
+  right: 0;
+}

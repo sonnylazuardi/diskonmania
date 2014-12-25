@@ -7,6 +7,7 @@
         collection-repeat="food in foods"
         collection-item-width="'100%'"
         collection-item-height="getItemHeight(item, $index)"
+        bindonce
         ng-style="{height: getItemHeight(item, $index)}">
         <img ng-src="{{food.thumb}}">
         <h2>{{food.title}}</h2>

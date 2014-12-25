@@ -7,6 +7,7 @@
         collection-repeat="fashion in fashions"
         collection-item-width="'100%'"
         collection-item-height="getItemHeight(item, $index)"
+        bindonce
         ng-style="{height: getItemHeight(item, $index)}">
         <img ng-src="{{fashion.thumb}}">
         <h2>{{fashion.title}}</h2>
